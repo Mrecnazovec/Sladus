@@ -1,1 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <link rel="icon" href="./assets/icons/logo.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sladus Real</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="preload" href="./assets/fonts/dinpro.otf" as="font">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar fixed-top">
+            <marquee class="fixed-top">Сайт находится в разработке</marquee>
+            <div class="container">
+                <div class="burger_box">
+                    <div class="offcanvas offcanvas-start fade" id="burger">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="offcanvas_content_box">
+                                    <a href="" type="button" class="btn krestik " data-bs-dismiss="offcanvas">
+                                        <img src="./assets/icons/krestik.svg" alt="krestic" class="krestic">
+                                        <div class="offcanvas_text_box">
+                                            <a href="#" class="navigate_link active">Главная</a>
+                                            <a href="./about us/index.html" class="navigate_link">О компании</a>
+                                            <a href="./katalog/index.html" class="navigate_link">Продукция</a>
+                                            <a href="./galereya/index.html" class="navigate_link">Галерия</a>
+                                            <a href="./vakansiya/index.html" class="navigate_link">Ваканcия</a>
+                                            <a href="#" class="navigate_link">Контакты</a>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <div class="offcanvas_carousel">
+                                    <div class="owl-carousel">
+                                        <div class="item">
+                                            <a href="./product/index.html" class="owl_link">
+                                                <div class="owl_img">
+                                                    <img src="./assets/images/1.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="./product/index.html" class="owl_link">
+                                                <div class="owl_img">
+                                                    <img src="./assets/images/2.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="./product/index.html" class="owl_link">
+                                                <div class="owl_img">
+                                                    <img src="./assets/images/3.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="./product/index.html" class="owl_link">
+                                                <div class="owl_img">
+                                                    <img src="./assets/images/4.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="./product/index.html" class="owl_link">
+                                                <div class="owl_img">
+                                                    <img src="./assets/images/5.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="carousel_text">Каталог продукции</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#burger" type="button" class="burger d-flex" data-bs-toggle="offcanvas">
+                        <img src="./assets/icons/burger.svg" alt="burger" class="burger_icon">
+                        <h1 class="burger_text">Меню</h1>
+                    </a>
+                </div>
+                <a href="#" class="logo">
+                    <img src="./assets/icons/logo.png" alt="logo" class="logo_icon">
+                </a>
+                <div class="info_box">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle button" type="button" id="dropdownButton" data-bs-toggle="dropdown">Ру</button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">En</a></li>
+                            <li><a class="dropdown-item" href="#">У'зб</a></li>
+                            <li><a class="dropdown-item" href="#">Uzb</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contact_box">
+                        <a href="tel:+998461856" class="telephone_number">+998 (99) 846 18 56</a>
+                        <a href="mailto:info@sladus.uz" class="email">sladus@mail.ru</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+        <div class="container">
+            <div class="header_content">
+
+                <h1 class="header_content_title">Сладкая радость</h1>
+                <h1 class="header_content_text">
+                    Лидер кондитерского производства в Узбекистане! Мы производим и реализуем кондитерские изделия более чем в 12 регионах страны и ближнего зарубежья.
+                </h1>
+                <div class="header_button_box">
+                    <a href="./about us/index.html" class="header_link">О нас</a>
+                    <a href="#" class="header_link">Перейти в каталог</a>
+                </div>
+                <div class="scroll_bar">
+                    <div class="lines"></div>
+                    <p class="scroll_bar_text">scroll down</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="mainOne">
+            <div class="slider">
+                <h1 class="slider_text">“SLADUS” company</h1>
+                <div class="social_media_box">
+                    <a href="#" class="social_media_link">
+                        <img src="./assets/icons/insta.svg" alt="icon" class="social_media_img">
+                    </a>
+                    <a href="#" class="social_media_link">
+                        <img src="./assets/icons/fb.svg" alt="icon" class="social_media_img">
+                    </a>
+                    <a href="#" class="social_media_link">
+                        <img src="./assets/icons/tg.svg" alt="icon" class="social_media_img">
+                    </a>
+                    <a href="#" class="social_media_link">
+                        <img src="./assets/icons/yt.svg" alt="icon" class="social_media_img">
+                    </a>
+                </div>
+            </div>
+            <a href="#myModal" class="play_video" type="button" data-bs-toggle="modal">
+                <img src="./assets/icons/play.svg" alt="play">
+                <h1 class="modal_video_text">О нас</h1>
+            </a>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <video controls>
+                        <source src="./assets/video/video.mp4" type="video/mp4">
+                    </video>
+                        <button class="btn btn-close video_closed" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mainTwo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="mainTwo_content_box">
+                            <h1 class="mainTwo_title">О «Sladus Leading»</h1>
+                            <h1 class="mainTwo_text">Наша компания основана в 2010 году. Основная деятельность – производство более 20 видов кондитерских изделий под маркой «Sladus Leading».</h1>
+
+                            <a href="./about us/index.html" class="header_link">О нас</a>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="mainTwo_content_box">
+                            <div class="circle_box">
+                                <div class="circle_box_One">
+                                    <h1 class="circle_title">20+</h1>
+                                    <h1 class="circle_text">видов кондитерских изделий </h1>
+                                </div>
+                                <div class="circle_box_Two">
+                                    <h1 class="circle_title">12+</h1>
+                                    <h1 class="circle_text">Стран экспортеров</h1>
+                                </div>
+                                <div class="circle_box_Three">
+                                    <h1 class="circle_title">20+</h1>
+                                    <h1 class="circle_text">Тонн продукции в день</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mainThree">
+            <img src="./assets/images/bgleftbot.png" alt="bgpos" class="mainThree_img_pos_bl">
+            <img src="./assets/images/bglefttop.png" alt="bgpos" class="mainThree_img_pos_tl">
+            <img src="./assets/images/bgrightbot.png" alt="bgpos" class="mainThree_img_pos_br">
+            <img src="./assets/images/bgrighttop.png" alt="bgpos" class="mainThree_img_pos_tr">
+            <div class="container">
+                <div class="mainThree_title_box">
+                    <h1 class="mainThree_title">Каталог продукции</h1>
+                    <a href="#" class="mainThree_link">Каталог</a>
+                </div>
+                <div class="owl-carousel two">
+                    <div class="item">
+                        <div class="mainThree_content_box">
+                            <img src="./assets/images/one.png" alt="pic" class="mainThree_img">
+                            <h1 class="mainThree_title_carousel">Sladus sweet</h1>
+                            <h1 class="mainThree_text">В производстве используется оборудование и исключительно высококачественное сырье. </h1>
+                            <a href="#" class="mainThree_carousel_button">О продукте</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mainThree_content_box">
+                            <img src="./assets/images/two.png" alt="pic" class="mainThree_img">
+                            <h1 class="mainThree_title_carousel">Sladus sweet</h1>
+                            <h1 class="mainThree_text">В производстве используется оборудование и исключительно высококачественное сырье. </h1>
+                            <a href="#" class="mainThree_carousel_button">О продукте</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mainThree_content_box">
+                            <img src="./assets/images/three.png" alt="pic" class="mainThree_img">
+                            <h1 class="mainThree_title_carousel">Sladus sweet</h1>
+                            <h1 class="mainThree_text">В производстве используется оборудование и исключительно высококачественное сырье. </h1>
+                            <a href="#" class="mainThree_carousel_button">О продукте</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mainThree_content_box">
+                            <img src="./assets/images/four.png" alt="pic" class="mainThree_img">
+                            <h1 class="mainThree_title_carousel">Sladus sweet</h1>
+                            <h1 class="mainThree_text">В производстве используется оборудование и исключительно высококачественное сырье. </h1>
+                            <a href="#" class="mainThree_carousel_button">О продукте</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mainThree_content_box">
+                            <img src="./assets/images/one.png" alt="pic" class="mainThree_img">
+                            <h1 class="mainThree_title_carousel">Sladus sweet</h1>
+                            <h1 class="mainThree_text">В производстве используется оборудование и исключительно высококачественное сырье. </h1>
+                            <a href="#" class="mainThree_carousel_button">О продукте</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mainThree_content_box">
+                            <img src="./assets/images/two.png" alt="pic" class="mainThree_img">
+                            <h1 class="mainThree_title_carousel">Sladus sweet</h1>
+                            <h1 class="mainThree_text">В производстве используется оборудование и исключительно высококачественное сырье. </h1>
+                            <a href="#" class="mainThree_carousel_button">О продукте</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mainThree_content_box">
+                            <img src="./assets/images/three.png" alt="pic" class="mainThree_img">
+                            <h1 class="mainThree_title_carousel">Sladus sweet</h1>
+                            <h1 class="mainThree_text">В производстве используется оборудование и исключительно высококачественное сырье. </h1>
+                            <a href="#" class="mainThree_carousel_button">О продукте</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="mainThree_content_box">
+                            <img src="./assets/images/four.png" alt="pic" class="mainThree_img">
+                            <h1 class="mainThree_title_carousel">Sladus sweet</h1>
+                            <h1 class="mainThree_text">В производстве используется оборудование и исключительно высококачественное сырье. </h1>
+                            <a href="#" class="mainThree_carousel_button">О продукте</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="mainFour">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mainFour_img_box">
+                            <img src="./assets/images/download.jpg" alt="" class="mainFour_img">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mainFour_content_box">
+                            <h1 class="mainFour_title_one">Наши достижения</h1>
+                            <h1 class="mainFour_title">Наша история</h1>
+                            <h1 class="mainFour_text">Кондитерская фабрика «Sladus Produce» была основана в 1996 году в городе Ташкенте Республике Узбекистан.</h1>
+                            <h1 class="mainFour_title">Деятельность фабрики</h1>
+                            <h1 class="mainFour_text">Производство кондитерской фабрики «Sladus Produce» оснащено современным производственным оборудованием</h1>
+                            <h1 class="mainFour_title">Наши достижения</h1>
+                            <h1 class="mainFour_text">Имеем креативный подход к разработкам новых видов и вкусов продукций, результатом которого является большой интерес к нашим продукциям в международном рынке.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mainFive">
+            <div class="container-fluid">
+                <h1 class="mainFive_title">Наши сертификаты</h1>
+                <img src="./assets/images/bigSertif.png" alt="bigSertif" class="mainFive_bigSertif">
+                <img src="./assets/images/BigStand.png" alt="bigSertif" class="mainFive_bigStand">
+                <img src="./assets/images/leftSertif.png" alt="leftSertif" class="leftSertif">
+                <img src="./assets/images/smallStand.png" alt="leftSertif" class="leftStand">
+                <img src="./assets/images/rightSertif.png" alt="rightSertif" class="rightSertif">
+                <img src="./assets/images/smallStand.png" alt="rightSertif" class="rightStand">
+                <h1 class="mainFive_2016">2016</h1>
+                <h1 class="mainFive_2018">2018</h1>
+                <h1 class="mainFive_2020">2020</h1>
+            </div>
+        </section>
+        <section class="mainSix">
+            <img src="/assets/icons/bigCircle.svg" alt="bigCircle" class="mainSix_big_circle">
+            <img src="/assets/icons/smallCircle.svg" alt="smallCircle" class="mainSix_small_circle">
+            <img src="./assets/images/Confeti.png" alt="Confeti" class="mainSix_confeti">
+            <div class="container">
+                <div class="mainSix_content_box">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-8">
+                            <div class="mainSix_text_box">
+                                <h1 class="mainSix_text_title">Форма обратной связи</h1>
+                                <h1 class="mainSix_text_info">У вас появились вопросы? Хотите стать нашим партнёром? Хотите с нами сотрудничать? Заполните простую форму и наши менеджеры свяжутся с вами в ближайшее время и ответят на все ваши вопросы!</h1>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-4">
+                            <div class="mainSix_reg_box">
+                                <form action="https://echo.htmlacademy.ru/courses" method="post">
+                                    <h1 class="mainSix_reg_title">Имя</h1>
+                                    <input type="text" name="Имя">
+                                    <h1 class="mainSix_reg_title">Телефон</h1>
+                                    <input type="tel" name="Телефон" value="+998">
+                                    <h1 class="mainSix_reg_title">Комментарий</h1>
+                                    <input type="text" name="Комментарий">
+                                    <button type="submit" class="btn">Отправить</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mainSeven">
+            <div class="container-fluid">
+                <div class="mainSeven_content_box">
+                    <div class="mainSeven_text_box">
+                        <h1 class="mainSeven_title">Контакты</h1>
+                        <h1 class="mainSeven_info">Телефон:</h1>
+                        <a href="tel:+998911529721" class="mainSeven_tel">+998 91 152 97 21</a>
+                        <h1 class="mainSeven_info">E-mail</h1>
+                        <a href="mailto:info@sladus.uz" class="mainSeven_tel">info@sladus.uz</a>
+                        <h1 class="mainSeven_info">E-mail</h1>
+                    </div>
+                    <div class="mapBox">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa60122b8d6b6e58495dd2fbadc7fb2de0d66b228836e22b352b40afc73c32efb&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+
+
+
+</body>
+
+</html>
