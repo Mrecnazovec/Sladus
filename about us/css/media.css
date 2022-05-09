@@ -109,20 +109,14 @@
 @media screen and (max-width:991px) {
     .footer_three_ul {
         text-align: center;
-        padding: 0;
     }
     .footer_one {
         text-align: center;
         max-width: 1000px;
         margin-bottom: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
     }
     .footer_two_ul {
         text-align: center;
-        padding: 0;
     }
     .icon_box {
         justify-content: center;
