@@ -296,9 +296,15 @@ marquee {
     padding-bottom: 72px;
 }
 
-.mainOne_content_box {}
+.mainOne_content_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.mainOne_img {}
+.mainOne_img {
+    width: 100%;
+}
 
 
 /* mainOne end */
