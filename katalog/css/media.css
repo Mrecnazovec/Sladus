@@ -11,8 +11,8 @@
         display: none;
     }
     nav .container {
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
     }
     .logo {
         position: relative !important;
@@ -27,11 +27,40 @@
     .button {
         margin: 0;
         margin-bottom: 30px;
+        display: none;
     }
     .burger_box {
         order: 2;
     }
+    .header_box_One::after {
+        height: 35%;
+    }
+    .navbar {
+        padding: 0;
+        padding-top: 30px;
+    }
+    .header_box_One::before {
+        width: 100%;
+    }
 }
+
+
+/* menu start */
+
+@media screen and (max-width:767px) {
+    .offcanvas_carousel {
+        display: none;
+    }
+    .carousel_text {
+        display: none;
+    }
+    .krestik {
+        right: 0;
+    }
+}
+
+
+/* menu end */
 
 
 /* navbar end */
@@ -82,4 +111,9 @@
         font-size: 50px;
         line-height: 70px;
     }
+    .header {
+        height: 50vh;
+    }
 }
+
+@media screen and (max-width:700px) {}
