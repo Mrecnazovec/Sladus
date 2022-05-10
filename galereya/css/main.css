@@ -21,6 +21,11 @@ marquee {
     color: red;
 }
 
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 
 /* header start*/
 
@@ -247,6 +252,10 @@ marquee {
 
 
 /* main start */
+
+.mainOne_img {
+    width: 100%;
+}
 
 .main {}
 
