@@ -1,0 +1,247 @@
+/* navbar */
+
+@media screen and (max-width:850px) {
+    .contact_box {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contact_box {
+        display: none;
+    }
+    nav .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        position: relative !important;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .button {
+        margin: 0;
+        margin-bottom: 30px;
+        display: none;
+    }
+    .burger_box {
+        order: 2;
+    }
+    .header_box_One::after {
+        height: 35%;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .header_box_One::before {
+        width: 100%;
+    }
+}
+
+
+/* menu start */
+
+@media screen and (max-width:767px) {
+    .offcanvas_carousel {
+        display: none;
+    }
+    .carousel_text {
+        display: none;
+    }
+    .krestik {
+        right: 0;
+    }
+}
+
+
+/* menu end */
+
+
+/* navbar end */
+
+
+/* navbar */
+
+@media screen and (max-width:850px) {
+    .contact_box {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contact_box {
+        display: none;
+    }
+    nav .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        position: relative !important;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .button {
+        margin: 0;
+        margin-bottom: 30px;
+        display: none;
+    }
+    .burger_box {
+        order: 2;
+    }
+    .header_box_One::after {
+        height: 35%;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .header_box_One::before {
+        width: 100%;
+    }
+}
+
+
+/* menu start */
+
+@media screen and (max-width:767px) {
+    .offcanvas_carousel {
+        display: none;
+    }
+    .carousel_text {
+        display: none;
+    }
+    .krestik {
+        right: 0;
+    }
+}
+
+
+/* menu end */
+
+
+/* navbar end */
+
+
+/* main */
+
+@media screen and (max-width:1600px) {
+    .input {
+        width: 100% !important;
+    }
+    .input1 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-tabs {
+        height: fit-content;
+        border-bottom: none !important;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 0;
+    }
+    .mainOne_content_box {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .nav-link.active {
+        background-color: transparent !important;
+    }
+    .main {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width:835px) {
+    .nav {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .tab-pane input {
+        width: 100%;
+    }
+    .mainOne_content_box {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .mainOne_title {
+        margin: 0;
+    }
+    .mainOne_content_box img {
+        margin-bottom: 30px;
+    }
+    .main {
+        padding: 0px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .main_title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+/* main end */
+
+
+/* footer */
+
+@media screen and (max-width:991px) {
+    .footer_three_ul {
+        text-align: center;
+        padding: 0;
+    }
+    .footer_one {
+        text-align: center;
+        max-width: 1000px;
+        margin-bottom: 30px;
+    }
+    .footer_two_ul {
+        text-align: center;
+        padding: 0;
+    }
+    .icon_box {
+        justify-content: center;
+    }
+    .footer_four_title {
+        text-align: center;
+    }
+    .download {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_one_text {
+        margin: 10px auto;
+    }
+}
