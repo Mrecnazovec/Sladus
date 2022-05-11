@@ -27,7 +27,7 @@ marquee {
 
 .header {
     height: 100vh;
-    background: linear-gradient(270deg, #692E00 0%, #DF843A 100%);
+    background: linear-gradient(270deg, #DF843A 0%, #692E00 100%);
     padding-top: 60px;
 }
 
@@ -255,7 +255,7 @@ marquee {
 /* header content start */
 
 .header_content {
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .header_content_title {
@@ -856,7 +856,7 @@ marquee {
 }
 
 .mainFive img {
-    position: absolute;
+    /* position: absolute; */
 }
 
 .mainFive_bigSertif {
@@ -874,6 +874,7 @@ marquee {
     position: absolute;
     left: 28%;
     top: 536px;
+    /* z-index: 1040; */
 }
 
 .leftSertif {
@@ -890,6 +891,7 @@ marquee {
 .leftStand {
     left: 280px;
     bottom: 117px;
+    position: absolute;
 }
 
 .rightSertif {
@@ -906,6 +908,7 @@ marquee {
 .rightStand {
     right: 137px;
     bottom: 97px;
+    position: absolute;
 }
 
 .mainFive_2016 {
@@ -1113,3 +1116,84 @@ marquee {
 
 
 /* mainSeven end */
+
+
+/* media */
+
+.blur_media_box {
+    padding: 20px;
+    width: fit-content;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(16px);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.blur_box_title {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 140px;
+    /* identical to box height, or 140% */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.blur_box_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.media_blur_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.media_sertif {
+    display: none;
+}
+
+.media_title_sertif {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #A55F1B;
+    text-align: center;
+}
+
+.media_sertif_box {}
+
+.media_text_sertif {
+    font-family: 'DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100.743px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #FFD09B;
+    text-align: center;
+}
+
+.image_media_sertif {
+    width: 256px;
+    height: 179px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}

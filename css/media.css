@@ -1,0 +1,337 @@
+/* navbar */
+
+@media screen and (max-width:850px) {
+    .contact_box {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contact_box {
+        display: none;
+    }
+    nav .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        position: relative !important;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .button {
+        margin: 0;
+        margin-bottom: 30px;
+        display: none;
+    }
+    .burger_box {
+        order: 2;
+    }
+    .header_box_One::after {
+        height: 35%;
+    }
+    .navbar {}
+    .header_box_One::before {
+        width: 100%;
+    }
+}
+
+
+/* menu start */
+
+@media screen and (max-width:767px) {
+    .offcanvas_carousel {
+        display: none;
+    }
+    .carousel_text {
+        display: none;
+    }
+    .krestik {
+        right: 0;
+    }
+}
+
+
+/* menu end */
+
+
+/* navbar end */
+
+@media screen and (max-width:1675px) {
+    .circle_box {
+        width: 643px;
+        height: 489px;
+    }
+    .circle_box_One {
+        width: 230px;
+        height: 230px;
+        z-index: 2;
+    }
+    .circle_box_Two {
+        width: 280px;
+        height: 280px;
+        right: 200px;
+        top: 150px;
+        z-index: 1;
+    }
+    .circle_box_Three {
+        width: 264px;
+        height: 264px;
+        z-index: 2;
+    }
+    .mainFour_content_box {
+        height: 50vh;
+    }
+    .mainFour_img {
+        height: 50vh;
+    }
+}
+
+
+/* sertificate */
+
+@media screen and (max-width :1230px) {
+    .mainFive_bigSertif,
+    .leftSertif,
+    .rightSertif {
+        position: unset;
+    }
+    .mainFive_bigStand,
+    .leftStand,
+    .rightStand {
+        display: none;
+    }
+    .bigSertif_box,
+    .leftSertiv_box,
+    .rightSertiv_box {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .mainFive_2020,
+    .mainFive_2016,
+    .mainFive_2018 {
+        position: unset !important;
+    }
+    .sertif_img {
+        height: fit-content;
+    }
+    .rightSertiv_box,
+    .leftSertiv_box {
+        position: unset;
+    }
+    .mainFive {
+        height: fit-content;
+        padding-bottom: 120px;
+    }
+    .mainFive_title {
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width :500px) {
+    .mainFive_2020,
+    .mainFive_2018,
+    .mainFive_2016 {
+        font-size: 50px;
+    }
+}
+
+
+/* footer */
+
+@media screen and (max-width:991px) {
+    .footer_three_ul {
+        text-align: center;
+        padding: 0;
+    }
+    .footer_one {
+        text-align: center;
+        max-width: 1000px;
+        margin-bottom: 30px;
+    }
+    .footer_two_ul {
+        text-align: center;
+        padding: 0;
+    }
+    .icon_box {
+        justify-content: center;
+    }
+    .footer_four_title {
+        text-align: center;
+    }
+    .download {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_one_text {
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width:1650px) {
+    .osnov {
+        display: none;
+    }
+    .media_blur_section {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:1750px) {
+    .osnova_sertif {
+        display: none;
+    }
+    .media_sertif {
+        display: flex;
+        justify-content: center;
+    }
+    .mainFive {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .mainSeven_content_box {
+        flex-direction: column;
+    }
+    .mainSeven {
+        background-size: 100% 100%;
+    }
+    .mapBox {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .mainSix {
+        height: 1300px;
+    }
+    .blur_media_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .mainTwo_content_box_media {
+        width: 100%;
+    }
+    .header_link {
+        margin-bottom: 30px;
+    }
+    .mainFour_img {
+        height: fit-content;
+    }
+    .mainSix_big_circle {
+        display: none;
+    }
+    .mainSix_confeti {
+        display: none;
+    }
+    .mainSix_small_circle {
+        display: none;
+    }
+    .mainSix_text_box {
+        height: fit-content;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .mainSix_text_info {
+        max-width: fit-content;
+    }
+    .mainFour_content_box {
+        text-align: center;
+    }
+    .mainFour_content_box {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .blur_media_box {
+        flex-direction: column;
+    }
+    .blur_media_box div {
+        margin-bottom: 30px;
+    }
+    .mainSeven_text_box {
+        padding-left: 0;
+        text-align: center;
+    }
+    .mapBox {
+        width: 100%;
+    }
+    .mainFive {
+        height: fit-content;
+    }
+    .media_sertif_box {
+        margin-bottom: 30px;
+    }
+    .image_media_sertif {
+        margin-bottom: 30px;
+    }
+    .mainTwo {
+        height: fit-content;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .mainTwo_content_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .slider {
+        display: none;
+    }
+    .header {
+        height: 50vh;
+    }
+    .play_video {
+        display: none;
+    }
+    .scroll_bar {
+        display: none;
+    }
+    .mainTwo_content_box {
+        text-align: center;
+    }
+    .mainTwo_title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .mainSeven {
+        height: fit-content;
+    }
+    .mainSeven_title,
+    .header_content_title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .mainSeven_content_box {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .mainThree {
+        display: none;
+    }
+    .media_title_sertif,
+    .mainFour_title_one,
+    .mainSeven_title {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+}
