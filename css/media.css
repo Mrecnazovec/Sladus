@@ -35,9 +35,16 @@
     .header_box_One::after {
         height: 35%;
     }
-    .navbar {}
+    .navbar {
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
     .header_box_One::before {
         width: 100%;
+    }
+    .header_content {
+        padding-top: 100px;
     }
 }
 
@@ -52,7 +59,13 @@
         display: none;
     }
     .krestik {
+        top: 0;
         right: 0;
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
     }
 }
 
@@ -84,11 +97,19 @@
         height: 264px;
         z-index: 2;
     }
-    .mainFour_content_box {
-        height: 50vh;
+    .mainFour_content_box {}
+    .mainFour_img {}
+    .mainThree_img_pos_br {
+        z-index: -1;
     }
-    .mainFour_img {
-        height: 50vh;
+}
+
+@media screen and (max-width :1280px) {
+    .header {
+        height: 60vh;
+    }
+    .slider {
+        height: 40vh;
     }
 }
 
@@ -131,6 +152,20 @@
     .mainFive_title {
         margin-bottom: 50px;
         font-size: 36px;
+    }
+    .mainSix .col-xl-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .mainSix_text_box {
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+    .mainSix {
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
@@ -208,6 +243,10 @@
     .mapBox {
         height: 500px;
     }
+    .header {
+        height: fit-content;
+    }
+    .slider {}
 }
 
 @media screen and (max-width:991px) {
@@ -251,10 +290,12 @@
     }
     .mainFour_content_box {
         height: fit-content;
+        padding-top: 30px;
+        padding-bottom: 15px;
     }
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:800px) {
     .blur_media_box {
         flex-direction: column;
     }
@@ -288,6 +329,17 @@
         justify-content: center;
         flex-direction: column;
     }
+    .slider {
+        display: none;
+    }
+    .play_video {
+        display: none;
+    }
+    .media_blur_section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -295,7 +347,7 @@
         display: none;
     }
     .header {
-        height: 50vh;
+        height: fit-content;
     }
     .play_video {
         display: none;
@@ -320,6 +372,22 @@
     }
     .mainSeven_content_box {
         padding-top: 30px;
+    }
+    .mainSix_reg_box {
+        padding: 10px;
+    }
+    .mainSix_reg_box input {
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .mainSix_reg_box {
+        height: fit-content;
+    }
+    .mainSix {
+        height: fit-content;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 }
 
