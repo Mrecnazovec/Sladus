@@ -26,7 +26,7 @@ marquee {
 /* header start*/
 
 .header {
-    height: 50vh;
+    height: 60vh;
     background: linear-gradient(270deg, #DF843A 0%, #692E00 100%);
     padding-top: 60px;
 }
@@ -359,7 +359,7 @@ marquee {
 /* slider */
 
 .slider {
-    height: 50vh;
+    height: 40vh;
     background-color: #FEF8F0;
     position: relative;
     bottom: 0;
