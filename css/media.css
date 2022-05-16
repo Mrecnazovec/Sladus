@@ -382,7 +382,7 @@
         margin-bottom: 30px;
     }
     .mainSix_reg_box {
-        height: fit-content;
+        width: 100%;
     }
     .mainSix {
         height: fit-content;
