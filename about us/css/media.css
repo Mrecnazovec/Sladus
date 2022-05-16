@@ -45,7 +45,13 @@
         display: none;
     }
     .krestik {
+        top: 0;
         right: 0;
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
     }
 }
 
@@ -100,10 +106,12 @@
         padding-left: 50px;
     }
     .header_box_One::after {
-        height: 35%;
+        height: 30%;
     }
     .navbar {
         padding: 0;
+        padding-top: 40px;
+        padding-bottom: 15px;
     }
     .header_box_One::before {
         width: 100%;
@@ -112,7 +120,7 @@
         line-height: 80px;
     }
     .header {
-        height: 50vh;
+        height: fit-content;
     }
 }
 
@@ -137,6 +145,9 @@
     }
     .mainOne_conent_box {
         min-height: 300px;
+    }
+    .header_box_One::after {
+        height: 30%;
     }
 }
 

@@ -25,13 +25,12 @@ marquee {
 /* header start*/
 
 .header {
-    height: 100vh;
     padding-top: 60px;
     background: #F9F9F9;
 }
 
 .navbar {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     background: #FFFFFF;
     box-shadow: 0px 4px 24px rgba(145, 88, 4, 0.2);
