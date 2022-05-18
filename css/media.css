@@ -174,6 +174,7 @@
     }
     .mapBox {
         width: 100%;
+        pointer-events: none;
     }
 }
 
@@ -253,6 +254,15 @@
     }
     .header {}
     .slider {}
+    .mainSix_big_circle {
+        display: none;
+    }
+    .mainSix_confeti {
+        display: none;
+    }
+    .mainSix_small_circle {
+        display: none;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -273,15 +283,6 @@
     }
     .mainFour_img {
         min-height: fit-content;
-    }
-    .mainSix_big_circle {
-        display: none;
-    }
-    .mainSix_confeti {
-        display: none;
-    }
-    .mainSix_small_circle {
-        display: none;
     }
     .mainSix_text_box {
         height: fit-content;
