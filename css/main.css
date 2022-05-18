@@ -26,7 +26,7 @@ marquee {
 /* header start*/
 
 .header {
-    height: 60vh;
+    min-height: 500px;
     background: linear-gradient(270deg, #DF843A 0%, #692E00 100%);
     padding-top: 60px;
 }
@@ -359,7 +359,7 @@ marquee {
 /* slider */
 
 .slider {
-    height: 40vh;
+    min-height: 440px;
     background-color: #FEF8F0;
     position: relative;
     bottom: 0;
@@ -477,7 +477,7 @@ marquee {
 /* mainTwo start */
 
 .mainTwo {
-    height: 100vh;
+    min-height: 940px;
     position: relative;
     background-image: url(../assets/images/backgroundOne.png);
     background-size: 100% 100%;
@@ -630,14 +630,14 @@ marquee {
 
 .mainFour_img {
     width: 100%;
-    height: 100vh;
+    min-height: 940px;
 }
 
 .mainFour_content_box {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    min-height: 940px;
 }
 
 .mainFour_title_one {
@@ -826,8 +826,8 @@ marquee {
 .mainFive {
     position: relative;
     background: #FCF4EB;
-    height: 100vh;
-    padding-top: 158px;
+    min-height: 940px;
+    padding-top: 60px;
 }
 
 .container-fluid {}
@@ -1063,16 +1063,31 @@ marquee {
 /* mainSeven start */
 
 .mainSeven {
-    background-image: url(../assets/images/bgmap.png);
+    /* background-image: url(../assets/images/bgmap.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left;
+    background-position: left; */
+}
+
+.mainSeven .container-fluid {
+    padding: 0;
 }
 
 .mainSeven_content_box {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.mainSeven_big_content_box {
+    width: 40%;
+    background-image: url(../assets/images/bgmap.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mainSeven_text_box {
@@ -1111,7 +1126,7 @@ marquee {
 }
 
 .mapBox {
-    height: 100vh;
+    height: 940px;
     width: 60%;
 }
 

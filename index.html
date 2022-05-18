@@ -149,21 +149,22 @@
                         <img src="./assets/icons/yt.svg" alt="icon" class="social_media_img">
                     </a>
                 </div>
-            </div>
-            <a href="#myModal" class="play_video" type="button" data-bs-toggle="modal">
-                <img src="./assets/icons/play.svg" alt="play">
-                <h1 class="modal_video_text">О нас</h1>
-            </a>
-            <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <video controls>
-                        <source src="./assets/video/video.mp4" type="video/mp4">
-                    </video>
-                        <button class="btn btn-close video_closed" data-bs-dismiss="modal"></button>
+                <a href="#myModal" class="play_video" type="button" data-bs-toggle="modal">
+                    <img src="./assets/icons/play.svg" alt="play">
+                    <h1 class="modal_video_text">О нас</h1>
+                </a>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <video controls>
+                            <source src="./assets/video/video.mp4" type="video/mp4">
+                        </video>
+                            <button class="btn btn-close video_closed" data-bs-dismiss="modal"></button>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
         <section class="mainTwo">
             <div class="container">
@@ -377,11 +378,11 @@
                             <div class="mainSix_reg_box">
                                 <form action="https://echo.htmlacademy.ru/courses" method="post">
                                     <h1 class="mainSix_reg_title">Имя</h1>
-                                    <input type="text" name="Имя">
+                                    <input required type="text" name="Имя">
                                     <h1 class="mainSix_reg_title">Телефон</h1>
-                                    <input type="tel" name="Телефон" value="+998">
+                                    <input required type="tel" name="Телефон" value="+998">
                                     <h1 class="mainSix_reg_title">Комментарий</h1>
-                                    <input type="text" name="Комментарий">
+                                    <input required type="text" name="Комментарий">
                                     <button type="submit" class="btn">Отправить</button>
                                 </form>
                             </div>
@@ -393,13 +394,15 @@
         <section class="mainSeven">
             <div class="container-fluid">
                 <div class="mainSeven_content_box">
-                    <div class="mainSeven_text_box">
-                        <h1 class="mainSeven_title">Контакты</h1>
-                        <h1 class="mainSeven_info">Телефон:</h1>
-                        <a href="tel:+998911529721" class="mainSeven_tel">+998 91 152 97 21</a>
-                        <h1 class="mainSeven_info">E-mail</h1>
-                        <a href="mailto:info@sladus.uz" class="mainSeven_tel">info@sladus.uz</a>
-                        <h1 class="mainSeven_info">E-mail</h1>
+                    <div class="mainSeven_big_content_box">
+                        <div class="mainSeven_text_box">
+                            <h1 class="mainSeven_title">Контакты</h1>
+                            <h1 class="mainSeven_info">Телефон:</h1>
+                            <a href="tel:+998911529721" class="mainSeven_tel">+998 91 152 97 21</a>
+                            <h1 class="mainSeven_info">E-mail</h1>
+                            <a href="mailto:info@sladus.uz" class="mainSeven_tel">info@sladus.uz</a>
+                            <h1 class="mainSeven_info">E-mail</h1>
+                        </div>
                     </div>
                     <div class="mapBox">
                         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa60122b8d6b6e58495dd2fbadc7fb2de0d66b228836e22b352b40afc73c32efb&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
