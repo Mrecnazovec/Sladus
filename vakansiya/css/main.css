@@ -354,6 +354,12 @@ marquee {
     padding-left: 25px;
     height: 64px;
     margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+    color: #D68915;
 }
 
 .tab-pan textarea {}
@@ -377,6 +383,12 @@ marquee {
     height: 356px;
     margin-bottom: 24px;
     padding-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+    color: #D68915;
 }
 
 .tab-pane input:nth-child(1) {}
