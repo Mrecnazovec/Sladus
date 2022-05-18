@@ -437,6 +437,16 @@
     .header_content_text {
         text-align: center;
     }
+    .header_button_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header_link {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -447,5 +457,15 @@
         font-size: 30px;
         line-height: 30px;
         margin-bottom: 30px;
+    }
+    .mainThree_img_pos_bl,
+    .mainThree_img_pos_tl,
+    .mainThree_img_pos_br,
+    .mainThree_img_pos_tr {
+        display: none;
+    }
+    .mainThree {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }
