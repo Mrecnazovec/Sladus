@@ -96,11 +96,17 @@
     .header_box_One::after {
         width: 100%;
     }
+    .header {
+        background-color: white;
+    }
+    .mainOne {
+        padding-top: 0;
+    }
 }
 
 @media screen and (max-width:700px) {
     .carousel_text_two {
-        display: none;
+        text-align: center;
     }
     .header_box_Two {
         padding-left: 50px;
@@ -121,6 +127,9 @@
     }
     .header {
         height: fit-content;
+    }
+    .mainTwo_title {
+        text-align: center;
     }
 }
 
