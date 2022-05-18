@@ -4,6 +4,9 @@
     .contact_box {
         display: none;
     }
+    .mainOne_title {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -37,10 +40,15 @@
     }
     .navbar {
         padding: 0;
-        padding-top: 30px;
+        padding-top: 40px;
     }
     .header_box_One::before {
         width: 100%;
+    }
+    .mainOne_title {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
     }
 }
 
@@ -118,7 +126,7 @@
         line-height: 70px;
     }
     .header {
-        height: fit-content;
+        min-height: 500px;
         padding-top: 150px;
         padding-bottom: 50px;
     }
