@@ -84,6 +84,9 @@
     .mainOne_title {
         text-align: center;
     }
+    .mainTwo_text {
+        line-height: 30px;
+    }
 }
 
 @media screen and (max-width:500px) {
