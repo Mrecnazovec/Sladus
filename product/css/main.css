@@ -26,10 +26,13 @@ marquee {
 
 .header {
     padding-top: 80px;
-    height: 100vh;
+    min-height: 897px;
     background-image: url(../assets/images/bgOne.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar {
