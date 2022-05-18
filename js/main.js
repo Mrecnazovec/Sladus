@@ -1,6 +1,5 @@
 $('.owl-carousel').owlCarousel({
     loop: false,
-    margin: 20,
     nav: true,
     dots: true,
 
